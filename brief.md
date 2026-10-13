@@ -41,3 +41,11 @@ Resource: OWASP Top 10 for LLM Applications: LLM01 Prompt Injection - https://ow
 Anonymization irreversibly removes all personal identifiers, permanently removing data from protection laws. Pseudonymization replaces direct identifiers with artificial keys (reversible using a separate secure key), meaning the data remains subject to data protection regulations like GDPR.
 
 Resource: GDPR Article 4(5) Definitions: Pseudonymization - https://gdpr-info.eu/art-4-gdpr/
+
+## Misconception in My Track
+
+A common misconception in cybersecurity is believing that indirect prompt injection is harmless if users cannot directly edit system prompts. In reality, indirect prompt injection allows attackers to compromise the LLM via untrusted external documents or data sources retrieved by the model during processing.
+
+## Open Question
+
+How can system architects securely isolate the LLM runtime context when processing untrusted third-party documents in RAG pipelines?
