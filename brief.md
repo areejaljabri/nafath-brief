@@ -23,3 +23,21 @@ Resource: What is RAG? - Amazon Web Services - https://aws.amazon.com/what-is/ra
 iOS App Transport Security enforces secure HTTPS network connections using strict TLS standards between mobile applications and web services. If an app attempts to connect to an insecure plain HTTP endpoint, ATS automatically blocks the connection request to prevent plain-text data eavesdropping.
 
 Resource: Preventing Insecure Network Connections - Apple Developer Documentation - https://developer.apple.com/documentation/security/preventing_insecure_network_connections
+
+## Networking
+
+IPv6 addresses are 128 bits long compared to IPv4's 32 bits, providing an exponentially larger address space. This expansion allows billions of connected IoT devices, containers, and microservices to receive globally unique addresses without relying on Network Address Translation bottlenecks.
+
+Resource: IPv6 Addressing Architecture - RFC 4291 - https://datatracker.ietf.org/doc/html/rfc4291
+
+## Cybersecurity
+
+Prompt injection occurs when malicious user inputs manipulate an AI model's instructions. Direct prompt injection overrides system prompts directly, whereas indirect prompt injection embeds malicious instructions inside retrieved untrusted documents. Risk is mitigated using strict input sanitization and context isolation.
+
+Resource: OWASP Top 10 for LLM Applications: LLM01 Prompt Injection - https://owasp.org/www-project-top-10-for-large-language-model-applications/
+
+## Data
+
+Anonymization irreversibly removes all personal identifiers, permanently removing data from protection laws. Pseudonymization replaces direct identifiers with artificial keys (reversible using a separate secure key), meaning the data remains subject to data protection regulations like GDPR.
+
+Resource: GDPR Article 4(5) Definitions: Pseudonymization - https://gdpr-info.eu/art-4-gdpr/
