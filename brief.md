@@ -17,3 +17,16 @@ Retrieval-Augmented Generation (RAG) ensures that the language model answers are
 ## Mobile Security: Encryption
 
 App Transport Security (ATS) enforces secure connections between the mobile app and backend services by mandating HTTPS with strict TLS requirements. This prevents plain-text data exposure over untrusted networks and protects user credentials.
+
+
+## Networking: Scalability
+
+IPv6 adoption provides an expanded IP address space necessary for massive containerized scaling and direct microservice addressing without Network Address Translation (NAT) bottlenecks.
+
+## Cybersecurity: AI Vulnerabilities
+
+Prompt Injection attacks attempt to bypass system safety controls by inserting malicious instructions into user inputs. Mitigation involves strict input sanitization, dynamic output filtering, and separating context layers.
+
+## Data: Privacy Distinction
+
+Data compliance mandates a clear operational distinction between anonymization (irreversible removal of identifiers) and pseudonymization (reversible using a separate key). This distinction is vital for regulatory alignment and user privacy protection.
